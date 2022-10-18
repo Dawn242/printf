@@ -29,4 +29,16 @@ int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
 
+/* FLAGS */
+#define F_MINUS 1
+#define F_PLUS 2
+#define F_ZERO 4
+#define F_HASH 8
+#define F_SPACE 16
+
+/****************** UTILS ******************/
+int is_printable(char);
+int append_hexa_code(char, char[], int);
+int is_digit(char);
+
 #endif  /* _MAIN_H */
