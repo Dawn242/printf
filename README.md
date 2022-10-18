@@ -1,1 +1,1 @@
-Team project on C - printf function
+Teams project on C - printf function
